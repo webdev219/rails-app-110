@@ -5,6 +5,7 @@ ruby "3.1.2"
 
 gem "rails", "~> 7.0.3"
 gem "sassc-rails", "2.1.2"
+gem "bootstrap-sass"
 gem "sprockets-rails"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
@@ -31,4 +32,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
   gem "minitest-reporters"
+  gem "rails-controller-testing"
 end

@@ -18,6 +18,8 @@ gem "pg"
 group :development, :test do
   gem "sqlite3", "1.4.2"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "guard"
+  gem "guard-minitest"
 end
 
 group :development do
@@ -28,4 +30,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "minitest-reporters"
 end

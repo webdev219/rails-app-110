@@ -5,6 +5,7 @@ ruby "3.1.2"
 
 gem "rails", "~> 7.0.3"
 gem "bcrypt"
+gem "faker"
 gem "sassc-rails", "2.1.2"
 gem "bootstrap-sass"
 gem "sprockets-rails"
@@ -16,6 +17,9 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "pg"
+
+gem "will_paginate", "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
 
 group :development, :test do
   gem "sqlite3", "1.4.2"

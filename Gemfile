@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 gem "rails", "~> 7.0.3"
+gem "image_processing", "1.12.2"
 gem "active_storage_validations", "0.9.8"
 gem "bcrypt"
 gem "faker"
@@ -18,6 +19,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "pg"
+gem "aws-sdk-s3", "1.114.0", require: false
 
 gem "will_paginate", "3.3.1"
 gem "bootstrap-will_paginate", "1.0.0"
